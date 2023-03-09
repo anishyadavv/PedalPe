@@ -76,7 +76,7 @@ nav{
     float: left;
 }
 .btn-start{
-    padding: 0px 25px;
+    padding: 0px 28px;
     border-radius: 50px;
     border-width: 0px;
     background-color: black;
@@ -85,9 +85,12 @@ nav{
     text-align: left;
     color: white;
     font-size: 1.2rem;
-
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
 }
 .fa-arrow-right{
-    float: right;
-    margin-top: 10px;
+  margin: auto;
+  margin-right: 0px;
 }
