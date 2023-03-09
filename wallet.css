@@ -69,7 +69,7 @@ nav{
     right: -170px;
     top: 100px;
     width: 22vw;
-    height: 50vh;
+    height: auto;
     background: #FFFFFF;
     box-shadow: 0px 9px 50px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
@@ -92,7 +92,8 @@ nav{
     margin: auto;
     display: flex;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
 }
 .fa-arrow-right{
   margin: auto;
