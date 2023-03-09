@@ -6,6 +6,9 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.bluecolor{
+    color: #007AFF;
+}
 .navbar ul li{
     float:left; 
     list-style: none;
@@ -61,12 +64,30 @@ nav{
     position: relative;
     right: -170px;
     top: 100px;
-    width: 25vw;
+    width: 22vw;
     height: 50vh;
     background: #FFFFFF;
     box-shadow: 0px 9px 50px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
+    box-sizing: border-box;
+    padding: 20px;
 }
 .column{
     float: left;
+}
+.btn-start{
+    padding: 0px 25px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color: black;
+    width: 15vw;
+    height: 10vh;
+    text-align: left;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.fa-arrow-right{
+    float: right;
+    margin-top: 10px;
 }
