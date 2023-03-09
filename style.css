@@ -7,6 +7,11 @@
     margin: 3vw;
     color: white;
 }
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 .navbar ul li:hover{
     cursor: pointer;
 }

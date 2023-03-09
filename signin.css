@@ -1,0 +1,24 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: linear-gradient(105.59deg, rgba(99, 58, 151, 0.9) 34.3%, rgba(76, 135, 198, 0.9) 91.59%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.logo{
+    margin-top: 55px;
+    margin-left: 10%;
+    float:left;
+    color: #007BFf;
+    font-size: 1.5rem;
+    font-weight:600;
+}
+.logo p{
+    font-size: 7.9px;
+    color:white;
+}
+
+.pedal{
+    color:white;
+}

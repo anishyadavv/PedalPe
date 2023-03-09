@@ -4,7 +4,7 @@
 body{
     background: linear-gradient(105.59deg, rgba(99, 58, 151, 0.9) 34.3%, rgba(76, 135, 198, 0.9) 91.59%);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 98vh;
 }
 .bluecolor{
     color: #007AFF;
@@ -13,6 +13,10 @@ body{
     float:left; 
     list-style: none;
     margin: 3vw;
+    color: white;
+}
+.navbar ul li a{
+    text-decoration: none;
     color: white;
 }
 .navbar ul li:hover{
