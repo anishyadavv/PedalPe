@@ -65,7 +65,7 @@ input[type=text], input[type=password]{
     margin-bottom: 16px;
     background: transparent;
 }
-input[type=button]{
+input[type=submit]{
     padding: 15px 10px;
     width: 100%;
     border-radius: 15px;
