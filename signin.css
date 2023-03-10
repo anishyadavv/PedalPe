@@ -37,13 +37,20 @@ body{
     background: rgba(217, 217, 217, 0.2);
     backdrop-filter: blur(5px);
 }
+.signinbox h2{
+    font-size: 1.2rem;
+}
+.signinbox p{
+    font-size: 0.8rem;
+}
 .center{
     position: absolute;
-    top: 89%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color:#b9b9b9;
+    font-size: 0.9rem;
 }
 .center a{
     text-decoration: none;
