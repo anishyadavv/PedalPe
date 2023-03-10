@@ -63,6 +63,10 @@ nav{
     text-decoration: none;
     color: #00B2FF;
 }
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
 .login p{
     font-size: 0.8rem;
     font-weight: lighter;

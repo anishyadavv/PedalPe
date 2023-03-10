@@ -36,6 +36,10 @@ body{
     font-size: 7.9px;
     color:white;
 }
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
 nav{
     margin-left: 10%;
     margin-right: 10%;
