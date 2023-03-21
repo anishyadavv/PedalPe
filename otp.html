@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="otp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/00ee24977f.js" crossorigin="anonymous"></script>
+    <title>OTP-verify</title>
+</head>
+<body>
+        <nav>
+            <h3 class="logo"> <a href="index.html"><span class="pedal">Pedal</span>पे
+                <p> <span class="pedal">ZERO EMISSION,</span>ZERO EXCUSES</p>
+                </a>
+            </h3>
+        </nav>
+
+        <div class="container">
+            <img src="img/-Light.png" alt="" class="statusbar">
+            <img src="img/otp2.png" alt="" class="otp">
+
+            <h4>OTP Verification</h4>
+            <p>Enter OTP sent to <b>yashmittal2102@gmail.com</b></p>
+            <div class="userInput">
+                <input type="text" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+                <input type="text" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+                <input type="text" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+                <input type="text" id="fourth" maxlength="1">
+        
+            </div>
+            <button>CONFIRM</button>
+            <img src="img/Light - Portrait 1.png" alt="" class="gesturebar">
+        </div>
+
+        <script>
+            function clickEvent(first,last){
+            if(first.value.length){
+                document.getElementById(last).focus();
+            }
+            }
+        </script>
+</body>
+</html>

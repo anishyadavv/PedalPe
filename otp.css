@@ -1,0 +1,105 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: linear-gradient(105.59deg, rgba(99, 58, 151, 0.9) 34.3%, rgba(76, 135, 198, 0.9) 91.59%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.logo{
+    margin-top: 55px;
+    margin-left: 10%;
+    float:left;
+    color: #007BFf;
+    font-size: 1.5rem;
+    font-weight:600;
+}
+.logo p{
+    font-size: 7.9px;
+    color:white;
+}
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.pedal{
+    color:white;
+}
+.container{
+    background-color: white;
+    width:  20vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    min-width: 320px;
+    box-sizing: border-box;
+
+}
+.gesturebar{
+    position: relative;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.otp{
+    position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+.statusbar{
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+.container h4{
+    
+    text-align: center;
+    font-size: 1.2rem; 
+}
+.container p{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: #3A3A3A;
+}
+.container button{
+    padding: 15px 10px;
+    width: 70%;
+    border-radius: 15px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer ;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+input {
+
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: arimo;
+    font-size: 1.2rem;
+    background: #eef2f3;
+  }
+  .userInput {
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0px;
+  }
