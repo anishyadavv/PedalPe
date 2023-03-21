@@ -47,10 +47,10 @@ body{
 }
 .otp{
     position: relative;
-    top: 200px;
+    top: 150px;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 250px;
 }
 .statusbar{
     position: relative;
@@ -78,7 +78,6 @@ body{
     background-color: black;
     color: white;
     cursor: pointer ;
-    margin-bottom: 20px;
     position: relative;
     top: 0;
     left: 50%;
@@ -94,7 +93,7 @@ input {
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
-    font-family: arimo;
+    font-family: 'Montserrat', sans-serif;;
     font-size: 1.2rem;
     background: #eef2f3;
   }
