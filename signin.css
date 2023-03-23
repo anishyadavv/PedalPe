@@ -60,7 +60,7 @@ body{
     text-decoration: none;
     color: #00B2FF;
 }
-input[type=text], input[type=password]{
+input[type=email], input[type=password]{
     padding: 15px 10px;
     width: 90%;
     border-radius: 15px;
@@ -79,6 +79,6 @@ input[type=submit]{
     color: white;
     cursor: pointer ;
 }
-input[type=password]::placeholder, input[type=text]::placeholder {
+input[type=password]::placeholder, input[type=email]::placeholder {
     color: white
  }
